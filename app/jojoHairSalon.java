@@ -18,7 +18,7 @@ public class Main {
             private String clientPhone;
             private int apptType;
 
-        public Appointment(String day_of_week, int start_time_hour){
+        public Appointment(String dayOfWeek, int startTimeHour){
 
         }
 
