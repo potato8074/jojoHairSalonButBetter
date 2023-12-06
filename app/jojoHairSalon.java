@@ -11,12 +11,12 @@ public class Main {
         for (int time = 9; time <= 15; time++) {
             appt_list.add(new Appointment(day, time));
         }
-        public class Appointment {
-            private String DayOfTheWeek;
-            private int StartTimeHour;
-            private String ClientName;
-            private String ClientPhone;
-            private int ApptType;
+        public class appointment {
+            private String dayOfTheWeek;
+            private int startTimeHour;
+            private String clientName;
+            private String clientPhone;
+            private int apptType;
 
         public Appointment(String day_of_week, int start_time_hour){
 
